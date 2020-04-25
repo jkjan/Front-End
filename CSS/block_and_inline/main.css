@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    background: red;
+    width: 120px;
+    height: 80px;
+    /*display: block; !* 블록처럼 표시하기*!*/
+    display: inline;
+}
+
+/*div나 head 같은 블록 요소들은*/
+/*display: inline; 이 기본으로 세팅되어 있음*/
+/*                 필요에 따라 inline 으로 바꿀 수 있다*/
+
